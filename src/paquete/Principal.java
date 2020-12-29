@@ -30,10 +30,8 @@ public class Principal {
 
         ArrayList<Empleado> listaEmpleados = new ArrayList<>();
         int opcion;
-        
+
         opcion = EntradaSalida.mostrarMenu();
-        
-        System.out.println("Hola de muveas");
 
         while (opcion != 0) {
             switch (opcion) {
