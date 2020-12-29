@@ -1,0 +1,24 @@
+principal -¿Que sentido tendría tener distintas funciones main en el mismo proyecto?
+ * Osea en distintas clases pero distinto proyecto En C++ exiten metodos
+ * virtuales, existen en Java?
+
+
+ empleado-
+  * Un metódo abstracto es una función definida sin cuerpo. Se utiliza cuando
+ * varios clases hijas van a sobreescribir este metodo peculiarmente.
+ *
+ * En cúanto una clase, ya tiene un metodo es abstracto ya hay que declararla
+ * como asbtracta. Y esta de esta no se pueden instanciar objetos.
+ *
+ * Las clases abstractan suelen iniciar una jeraquia, pueden tener
+ * estado(atributos) y comportamiento (metodos concretos/abstractos). Y permiten
+ * metodos con implementación (concretos) Y se puede dar uso del polimorfismo
+ * con ellas: Empleado c = new Comercial();
+ *
+ * Para encapsular a las instancias de nuestras clases hijas, incorporamos todos
+ * los atributos como privados tanto los propios como los herededos.
+ *
+ * Ya que tenemos un metodo para calcular el sueldo, en función de que tipo de
+ * empleado sea. Borramos el getSueldo() predefinido. Para que no se pueda
+ * llamar, de esta forma solo estara disponible el metodo abstracto
+ * calcularSueldo()
