@@ -1,4 +1,4 @@
-# `System.out.println("¡Bienvenido a mi primer repositorio!");`
+# System.out.println("¡Bienvenido a mi primer repositorio!");
 
 ```java
 System.out.println("¿Objetivo del proyecto?");
